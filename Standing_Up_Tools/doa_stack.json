@@ -197,7 +197,7 @@
                                 "cd /data/adop-docker-compose\n",
                                 "./adop workspace -w DOA create; sleep 10\n",
                                 "./adop project -p Labs -w DOA create; sleep 10\n",
-                                "./adop project -p Labs -w DOA load_collection -c https://raw.githubusercontent.com/Accenture/adop-doa-materials/master/Cartridge_Collections/doa_cartridge_collection.json\n",
+                                "./adop project -p Labs -w DOA load_collection -c https://raw.githubusercontent.com/qfennessy/adop-doa-materials/master/Cartridge_Collections/doa_cartridge_collection.json\n",
                                 "./adop extension add_credentials -u ",{"Ref": "AwsAccessKey"}," -p ",{"Ref": "AwsSecretKey"}," -i aws\n",
                                 "set +e\n",
                                 "curl -X PUT -H 'Content-Type:' --data-binary '{\"Status\" : \"SUCCESS\",",
