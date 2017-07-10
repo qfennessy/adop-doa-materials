@@ -17,7 +17,7 @@
 			"description": "This pipeline is used in Module 3 - Application Deployment"
 		},
 		"cartridge": {
-			"url": "https://github.com/Accenture/adop-cartridge-doa-m3.git",
+			"url": "https://github.com/qfennessy/adop-cartridge-doa-m3.git",
 			"desc": "FOSS Java Cartridge (Manual)"
 		}
 	}, {
